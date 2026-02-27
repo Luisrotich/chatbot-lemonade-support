@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lemonade Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <span class="logo-icon"></span>
+                <h1>LEMONADE support bot.
+                    
+                </h1>
+            </div>
+        </header>
+
+            <!-- Chatbot Section -->
+            <div class="chat-section">
+                <div class="chat-container">
+                    <div class="chat-header">
+                        <div class="chat-header-info">
+                            <span class="chat-avatar">🍋</span>
+                            <div>
+                                <h3>Sunny</h3>
+                                <p class="chat-status">Online • Ready to help!</p>
+                            </div>
+                        </div>
+                        <button class="clear-chat-btn" id="clear-chat" title="Clear chat">
+                            <span class="clear-icon">↺</span>
+                        </button>
+                    </div>
+                    
+                    <div class="chat-messages" id="chat-messages">
+                        <div class="message bot-message">
+                            <div class="message-content">
+                                <p>Hi there! 👋 I'm Sunny, your lemonade expert. How can I help you ?</p>
+                                <span class="message-time">Just now</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="suggested-questions" id="suggested-questions">
+                        <button class="suggestion-btn">What's popular?</button>
+                        <button class="suggestion-btn">Sugar-free options?</button>
+                        <button class="suggestion-btn">Party packs</button>
+                        <button class="suggestion-btn">Shipping times</button>
+                    </div>
+                    
+                    <div class="chat-input-container">
+                        <input 
+                            type="text" 
+                            id="chat-input" 
+                            placeholder="Ask me about our lemonades..."
+                            class="chat-input"
+                        >
+                        <button id="send-button" class="send-button">
+                            <span class="send-icon">➤</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        <!-- Main Content -->
+        <div class="main-content">
+            
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
