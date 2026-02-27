@@ -1,5 +1,5 @@
-// API Configuration
-const API_URL = 'http://localhost:3000/api';
+// API Configuration - Automatically detects Railway URL
+const API_URL = window.location.origin + '/api';  // This will work on Railway and locally
 let sessionId = generateSessionId();
 let isLoading = false;
 
@@ -80,6 +80,10 @@ async function sendMessage() {
                 sessionId: sessionId
             })
         });
+        
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
         
         const data = await response.json();
         
@@ -208,10 +212,14 @@ async function clearChat() {
 async function loadFAQs() {
     try {
         const response = await fetch(`${API_URL}/faqs`);
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
         const faqs = await response.json();
         // Store FAQs for later use
         window.faqs = faqs;
     } catch (error) {
         console.error('Error loading FAQs:', error);
+        // Don't show error to user for FAQs - it's not critical
     }
 }
