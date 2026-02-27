@@ -1,8 +1,2 @@
-.env 
-node_modules/ 
-__pycache__/ 
-*.pyc 
-venv/ 
-env/ 
-"backend/.env" 
-".env" 
+# Don't exclude JSON files
+!*.json

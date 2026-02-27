@@ -1,106 +1,64 @@
 {
   "products": [
     {
-      "id": "1",
+      "id": "classic-1",
       "name": "Classic Lemonade",
-      "description": "Our signature recipe with fresh squeezed lemons, cane sugar, and mint",
       "price": 4.99,
-      "category": "Classic",
-      "image_url": "/assets/classic-lemonade.jpg",
-      "tags": ["popular", "refreshing", "traditional"],
-      "in_stock": true,
-      "ingredients": ["Lemon juice", "Cane sugar", "Mint", "Filtered water"],
-      "sugar_free": false,
-      "vegan": true,
-      "size_options": ["Small", "Medium", "Large"]
+      "description": "Our signature classic lemonade made with fresh lemons and cane sugar",
+      "tags": ["classic", "original", "traditional"]
     },
     {
-      "id": "2",
+      "id": "sugarfree-1",
       "name": "Sugar-Free Lemonade",
-      "description": "All the flavor, zero sugar. Sweetened with stevia",
-      "price": 5.49,
-      "category": "Healthy",
-      "image_url": "/assets/sugar-free.jpg",
-      "tags": ["sugar-free", "diet", "healthy"],
-      "in_stock": true,
-      "ingredients": ["Lemon juice", "Stevia", "Filtered water"],
-      "sugar_free": true,
-      "vegan": true,
-      "size_options": ["Small", "Medium", "Large"]
-    },
-    {
-      "id": "3",
-      "name": "Strawberry Bliss Lemonade",
-      "description": "Fresh strawberry puree mixed with our classic lemonade",
       "price": 5.99,
-      "category": "Fruit",
-      "image_url": "/assets/strawberry.jpg",
-      "tags": ["berry", "fruit", "sweet"],
-      "in_stock": true,
-      "ingredients": ["Lemon juice", "Strawberry puree", "Cane sugar", "Filtered water"],
-      "sugar_free": false,
-      "vegan": true,
-      "size_options": ["Small", "Medium", "Large"]
+      "description": "All the flavor with zero sugar, sweetened with stevia",
+      "tags": ["sugar-free", "diet", "zero sugar"]
     },
     {
-      "id": "4",
-      "name": "Ginger Zing Lemonade",
-      "description": "Classic lemonade with a kick of fresh ginger",
-      "price": 5.49,
-      "category": "Specialty",
-      "image_url": "/assets/ginger.jpg",
-      "tags": ["spicy", "unique", "refreshing"],
-      "in_stock": true,
-      "ingredients": ["Lemon juice", "Fresh ginger", "Cane sugar", "Filtered water"],
-      "sugar_free": false,
-      "vegan": true,
-      "size_options": ["Small", "Medium", "Large"]
-    },
-    {
-      "id": "5",
-      "name": "Lavender Dream Lemonade",
-      "description": "Floral lavender syrup blended with our signature lemonade",
+      "id": "strawberry-1",
+      "name": "Strawberry Bliss",
       "price": 5.99,
-      "category": "Specialty",
-      "image_url": "/assets/lavender.jpg",
-      "tags": ["floral", "unique", "trendy"],
-      "in_stock": true,
-      "ingredients": ["Lemon juice", "Lavender syrup", "Cane sugar", "Filtered water"],
-      "sugar_free": false,
-      "vegan": true,
-      "size_options": ["Small", "Medium", "Large"]
+      "description": "Fresh strawberry puree blended with our classic lemonade",
+      "tags": ["strawberry", "berry", "fruit"]
     },
     {
-      "id": "6",
+      "id": "ginger-1",
+      "name": "Ginger Zing",
+      "price": 5.99,
+      "description": "A refreshing kick of fresh ginger in our classic lemonade",
+      "tags": ["ginger", "spicy", "zing"]
+    },
+    {
+      "id": "lavender-1",
+      "name": "Lavender Dream",
+      "price": 6.99,
+      "description": "Floral lavender infused lemonade for a unique experience",
+      "tags": ["lavender", "floral", "unique"]
+    },
+    {
+      "id": "party-pack-1",
       "name": "Party Pack (6 bottles)",
-      "description": "6 bottles of assorted lemonades, perfect for gatherings",
       "price": 27.99,
-      "category": "Bulk",
-      "image_url": "/assets/party-pack.jpg",
-      "tags": ["bulk", "savings", "party"],
-      "in_stock": true,
-      "ingredients": ["Assorted flavors"],
-      "sugar_free": false,
-      "vegan": true,
-      "size_options": ["6-pack"]
+      "description": "Mix and match any 6 lemonades of your choice",
+      "tags": ["party", "pack", "bulk"]
     }
   ],
   "faqs": [
     {
-      "question": "What are your shipping times?",
+      "question": "What are your lemonade flavors?",
+      "answer": "We offer Classic, Sugar-Free, Strawberry Bliss, Ginger Zing, and Lavender Dream!"
+    },
+    {
+      "question": "Are your lemonades vegan?",
+      "answer": "Yes! All our lemonades are 100% vegan and plant-based."
+    },
+    {
+      "question": "How long does shipping take?",
       "answer": "We ship within 2-3 business days. Standard shipping takes 3-5 days."
     },
     {
-      "question": "Do you have sugar-free options?",
-      "answer": "Yes! Our Sugar-Free Lemonade is sweetened with stevia and has zero sugar."
-    },
-    {
-      "question": "Are your products vegan?",
-      "answer": "Yes, all our lemonades are 100% vegan and plant-based."
-    },
-    {
-      "question": "What's your return policy?",
-      "answer": "If you're not satisfied, contact us within 7 days for a full refund."
+      "question": "What is your return policy?",
+      "answer": "If you're not satisfied, contact us within 7 days for a full refund!"
     }
   ]
 }
